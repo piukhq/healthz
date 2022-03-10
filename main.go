@@ -7,7 +7,7 @@ import (
 )
 
 func healthz(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "healthy\n")
+	io.WriteString(w, "healthy")
 }
 
 func main() {
